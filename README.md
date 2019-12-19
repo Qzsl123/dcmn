@@ -1,5 +1,4 @@
-##DCMN
-
+## DCMN
 ### How to Run
 
 ```
@@ -11,7 +10,7 @@ python dcmn.py  \
   --output_file $OUTPUT_FILE$ \
   --fp16
 ```
-## Apex
+### Apex
 Please use an earlier commit of Apex - [NVIDIA/apex@4a8c4ac](https://github.com/NVIDIA/apex/commit/4a8c4ac088b6f84a10569ee89db3a938b48922b4)
 
 ### How to Cite
