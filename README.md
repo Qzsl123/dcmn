@@ -18,7 +18,7 @@ If you extend or use this work, please cite the [paper][paper] where it was intr
 
 ```
 @inproceedings{dcmn,
-    title={Dual Co-Matching Network for Multi-choice Reading Comprehension},
+    title={DCMN+: Dual Co-Matching Network for Multi-choice Reading Comprehension},
     author={Shuailiang Zhang and Hai Zhao and Yuwei Wu and Zhuosheng Zhang and Xi Zhou and Xiang Zhou},
     year={2020},
     booktitle = "{The Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI)}",
