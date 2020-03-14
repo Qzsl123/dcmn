@@ -159,8 +159,8 @@ class BertForMultipleChoiceWithMatch(PreTrainedBertModel):
         qa_fuse= self.fuse([qa_output_pool, aq_output_pool])
 
         cat_pool = torch.cat([pa_fuse, pq_fuse, qa_fuse], 1)
-        output_pool = self.dropout(pooled_output)
-        match_logits = self.classifier(output_pool)
+        output_pool = self.dropout(cat_pool)
+        match_logits = self.classifier3(output_pool)
         match_reshaped_logits = match_logits.view(-1, self.num_choices)
 
         if labels is not None:
